@@ -19,6 +19,7 @@ class UploadPage extends Component {
   }
   render = () => {
     return (<div>{!this.state.doc && <div><h1 className='h1'>Upload your file here!</h1>
+    <br/>
     <div className="input-group mb-3">
   <div className="custom-file">
     <input type="file" onChange={this.handleChangeDoc}className="custom-file-input" id="inputGroupFile02" />
@@ -26,7 +27,7 @@ class UploadPage extends Component {
   </div>
 
 </div>
-      <input type='file'  onChange={this.handleChangeDoc}/></div>}
+      </div>}
       {this.state.doc && <div><h1 className='h1'>YOUR FILE:</h1>
         <FileViewer doc={this.state.doc}/></div>
     }
