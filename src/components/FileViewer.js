@@ -97,13 +97,13 @@ class FileViewer extends Component {
 
 
 
-    return (<div><table >
+    return (<div><table className='table'>
   <thead>
   <tr>
-    <th><button onClick={this.handleClick} value='firstname'>Firstname</button></th>
-    <th><button onClick={this.handleClick} value='surname'>Surname</button></th>
-    <th><button onClick={this.handleClick} value='issues'>Issue Count</button></th>
-    <th><button onClick={this.handleClick} value='date'>Date Of Birth</button></th>
+    <th><button type="button" className="btn btn-warning" onClick={this.handleClick} value='firstname'>Firstname</button></th>
+    <th><button type="button" className="btn btn-warning" onClick={this.handleClick} value='surname'>Surname</button></th>
+    <th><button type="button" className="btn btn-warning" onClick={this.handleClick} value='issues'>Issue Count</button></th>
+    <th><button type="button" className="btn btn-warning" onClick={this.handleClick} value='date'>Date Of Birth</button></th>
     </tr>
   </thead>
 
