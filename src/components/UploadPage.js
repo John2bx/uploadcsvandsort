@@ -22,7 +22,7 @@ class UploadPage extends Component {
     <br/>
     <div className="input-group mb-3">
   <div className="custom-file">
-    <input type="file" onChange={this.handleChangeDoc}className="custom-file-input" id="inputGroupFile02" />
+    <input type="file" onChange={this.handleChangeDoc}className="custom-file-input" accept=".csv" id="inputGroupFile02" />
     <label className="custom-file-label" for="inputGroupFile02">Choose file</label>
   </div>
 

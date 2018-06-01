@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 class FileViewer extends Component {
-   state = {orderby:'date',
+   state = {orderby:'surname',
             reverse:'off'
             }
 
